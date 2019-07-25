@@ -20,7 +20,10 @@ extract [currently single line only] comment content from programming languages
 `/^([^\/\/]*)\/\/(.*)$/`
 
 ## Javascript
+#### Single line
 `/^([^\/\/]*)\/\/(.*)$/`
+#### Multi line
+`/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
 
 ## Kotlin
 `/^([^\/\/]*)\/\/(.*)$/`
