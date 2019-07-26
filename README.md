@@ -25,6 +25,9 @@ extract comment content from programming languages
 ## Kotlin
 `/^([^\/\/]*)\/\/(.*)$/`
 
+## Ocaml
+`/\/\*(.*?)\*\//;`
+
 ## PHP
 `/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
 
