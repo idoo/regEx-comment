@@ -17,7 +17,7 @@ extract comment content from programming languages
 `/^([^--]*)--(.*)$/`
 
 ## Java
-`/^([^\/\/]*)\/\/(.*)$/`
+`/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
 
 ## Javascript
 `/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
