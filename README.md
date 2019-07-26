@@ -1,5 +1,5 @@
 # RegEx 
-extract [currently single line only] comment content from programming languages
+extract comment content from programming languages
 
 ## C++
 `/^([^\/\/]*)\/\/(.*)$/`
