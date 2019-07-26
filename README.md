@@ -26,7 +26,7 @@ extract comment content from programming languages
 `/^([^\/\/]*)\/\/(.*)$/`
 
 ## PHP
-`/^([^\/\/]*)\/\/(.*)$/`
+`/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
 
 ## Python
 `/^([^#]*)#(.*)$/`
@@ -35,7 +35,7 @@ extract comment content from programming languages
 `/^([^#]*)#(.*)$/`
 
 ## TypeScript
-`/^([^\/\/]*)\/\/(.*)$/`
+`/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
 
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!
