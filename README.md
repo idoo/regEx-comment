@@ -20,7 +20,7 @@ extract comment content from programming languages
 `/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
 
 ## Javascript
-`/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
+`/(?:(?:^|\s)\/\/(.+?)$)|(?:\/\*(.*?)\*\/)/gms`
 
 ## Kotlin
 `/^([^\/\/]*)\/\/(.*)$/`
