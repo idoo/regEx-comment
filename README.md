@@ -32,7 +32,7 @@ extract comment content from programming languages
 `/(\/\*[\s\S]*?(.*)\*\/)|(\/\/.*)/gm`
 
 ## Perl
-`/^([^#]*)#(.*)$/`
+`/(^=begin(.*?|\n)*?=cut$|#.*)/gm`
 
 ## Python
 `/^([^#]*)#(.*)$/`
