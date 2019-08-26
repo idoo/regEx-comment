@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/idoo/regEx-comment#readme",
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "3.16.4"
   }
 }
