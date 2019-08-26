@@ -25,6 +25,9 @@ extract comment content from programming languages
 ## Kotlin
 `/^([^\/\/]*)\/\/(.*)$/`
 
+## Lua
+`/(^ ?-- ?.*| -- .*)/gm`
+
 ## Ocaml
 `/\/\*(.*?)\*\//`
 
