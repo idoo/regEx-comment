@@ -3,19 +3,13 @@
   "version": "0.0.1",
   "description": "regexp list to fetch comments from source files",
   "main": "index.js",
-  "workspaces": [
-    "src/*"
-  ],
   "scripts": {
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
     "release": "yarn test:coverage && yarn build && lerna publish",
     "build": "lerna run build --parallel"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idoo/regEx-comment.git"
-  },
+  "repository": "git+https://github.com/idoo/regEx-comment.git",
   "keywords": [
     "regex"
   ],
@@ -26,6 +20,7 @@
   },
   "homepage": "https://github.com/idoo/regEx-comment#readme",
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "jest": "^24.9.0"
   }
 }
