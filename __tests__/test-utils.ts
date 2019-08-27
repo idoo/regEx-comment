@@ -11,7 +11,6 @@ const cpp = readFile(cppPath)
 
 const csharpPath = "./languages/csharp.cs";
 const csharp = readFile(csharpPath)
-console.log(cpp)
 
 const languages = new Map([
   ["cpp", cpp],
