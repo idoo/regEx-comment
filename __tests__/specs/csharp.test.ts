@@ -1,4 +1,4 @@
-import { testRegex } from "./test-utils";
+import { testRegex } from "./../test-utils";
 
 const languageName = 'csharp';
 
