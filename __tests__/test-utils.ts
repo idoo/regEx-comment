@@ -3,6 +3,7 @@ import {
   CPP_REGEX,
   CSHARP_REGEX,
   GO_REGEX,
+  JAVA_REGEX,
   JAVASCRIPT_REGEX,
   PHP_REGEX,
   TYPESCRIPT_REGEX
@@ -19,6 +20,9 @@ const csharp = readFile(csharpPath);
 const goPath = "./languages/go.go";
 const go = readFile(goPath);
 
+const javaPath = "./languages/java.java";
+const java = readFile(javaPath);
+
 const javascriptPath = "./languages/javascript.js";
 const javascript = readFile(javascriptPath);
 
@@ -32,6 +36,7 @@ const languages = new Map([
   ["cpp", cpp],
   ["csharp", csharp],
   ["go", go],
+  ["java", java],
   ["javascript", javascript],
   ["php", php],
   ["typescript", typescript]
@@ -41,6 +46,7 @@ const regexs = new Map([
   ["cpp", CPP_REGEX],
   ["csharp", CSHARP_REGEX],
   ["go", GO_REGEX],
+  ["java", JAVA_REGEX],
   ["javascript", JAVASCRIPT_REGEX],
   ["php", PHP_REGEX],
   ["typescript", TYPESCRIPT_REGEX],

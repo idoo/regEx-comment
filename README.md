@@ -6,20 +6,20 @@ extract comment content from programming languages
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
 
 ## Supported languages
-- [x] C++
 - [x] C#
-- [ ] Fortan
+- [x] C++
 - [x] Go
-- [ ] Haskell
-- [ ] Java
+- [x] Java
 - [x] Javascript
+- [x] PHP
+- [x] TypeScript
+- [ ] Fortan
+- [ ] Haskell
 - [ ] Kotlin
 - [ ] Lua
 - [ ] Ocaml
-- [x] PHP
 - [ ] Perl
 - [ ] Python
 - [ ] Ruby
-- [x] TypeScript
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!
