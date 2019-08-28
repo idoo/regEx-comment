@@ -11,11 +11,11 @@ extract comment content from programming languages
 - [x] Go
 - [x] Java
 - [x] Javascript
+- [x] Kotlin
 - [x] PHP
 - [x] TypeScript
 - [ ] Fortan
 - [ ] Haskell
-- [ ] Kotlin
 - [ ] Lua
 - [ ] Ocaml
 - [ ] Perl

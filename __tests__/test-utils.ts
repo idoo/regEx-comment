@@ -5,6 +5,7 @@ import {
   GO_REGEX,
   JAVA_REGEX,
   JAVASCRIPT_REGEX,
+  KOTLIN_REGEX,
   PHP_REGEX,
   TYPESCRIPT_REGEX
 } from "../src/index";
@@ -19,6 +20,9 @@ const csharp = readFile(csharpPath);
 
 const goPath = "./languages/go.go";
 const go = readFile(goPath);
+
+const kotlinPath = "./languages/kotlin.kt";
+const kotlin = readFile(kotlinPath);
 
 const javaPath = "./languages/java.java";
 const java = readFile(javaPath);
@@ -38,6 +42,7 @@ const languages = new Map([
   ["go", go],
   ["java", java],
   ["javascript", javascript],
+  ["kotlin", kotlin],
   ["php", php],
   ["typescript", typescript]
 ]);
@@ -48,6 +53,7 @@ const regexs = new Map([
   ["go", GO_REGEX],
   ["java", JAVA_REGEX],
   ["javascript", JAVASCRIPT_REGEX],
+  ["kotlin", KOTLIN_REGEX],
   ["php", PHP_REGEX],
   ["typescript", TYPESCRIPT_REGEX],
 ]);
