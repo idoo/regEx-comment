@@ -20,6 +20,6 @@ extract comment content from programming languages
 - [ ] Perl
 - [ ] Python
 - [ ] Ruby
-- [ ] TypeScript
+- [x] TypeScript
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!
