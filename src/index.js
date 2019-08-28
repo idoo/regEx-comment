@@ -1,4 +1,5 @@
-const DEFAULT_REGEX = /\/\*[\s\S]*?\*\/|(|^)\/\/.*$/gm;
+// TODO: add more cases for multiline comments
+const DEFAULT_REGEX = /\/\*[\s\S]*?\*\/|\/\/.*$/gm;
 const CPP_REGEX = DEFAULT_REGEX;
 const CSHARP_REGEX = DEFAULT_REGEX;
 const GO_REGEX = DEFAULT_REGEX;
