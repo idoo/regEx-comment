@@ -1,8 +1,9 @@
-const DEFAULT_REGEX = /\/\*[\s\S]*?\*\/|([^:]|^)\/\/.*$/gm;
+const DEFAULT_REGEX = /\/\*[\s\S]*?\*\/|(|^)\/\/.*$/gm;
 const CPP_REGEX = DEFAULT_REGEX;
 const CSHARP_REGEX = DEFAULT_REGEX;
 const GO_REGEX = DEFAULT_REGEX;
 const JAVASCRIPT_REGEX = DEFAULT_REGEX;
+const PHP_REGEX = DEFAULT_REGEX;
 const TYPESCRIPT_REGEX = DEFAULT_REGEX;
 
 module.exports = {
@@ -11,5 +12,6 @@ module.exports = {
   CSHARP_REGEX,
   GO_REGEX,
   JAVASCRIPT_REGEX,
+  PHP_REGEX,
   TYPESCRIPT_REGEX
 };

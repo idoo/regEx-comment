@@ -8,10 +8,10 @@ describe("Go", () => {
   });
 
   it("returns `// output`", () => {
-    expect(testRegex(languageName)).toContain(' // output')
+    expect(testRegex(languageName)).toContain('// output')
   });
 
   it("returns `// commented line`", () => {
-    expect(testRegex(languageName)).toContain('\n// commented line')
+    expect(testRegex(languageName)).toContain('// commented line')
   });
 });

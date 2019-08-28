@@ -1,8 +1,8 @@
 import { testRegex } from "./../test-utils";
 
-const languageName = 'csharp';
+const languageName = 'php';
 
-describe("C#", () => {
+describe("PHP", () => {
   it("returns `Hello World! program`", () => {
     expect(testRegex(languageName)).toContain('/* Hello World! program */')
   });

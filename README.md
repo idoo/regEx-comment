@@ -16,7 +16,7 @@ extract comment content from programming languages
 - [ ] Kotlin
 - [ ] Lua
 - [ ] Ocaml
-- [ ] PHP
+- [x] PHP
 - [ ] Perl
 - [ ] Python
 - [ ] Ruby
