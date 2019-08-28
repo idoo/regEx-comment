@@ -2,7 +2,8 @@ import {
   DEFAULT_REGEX,
   CPP_REGEX,
   CSHARP_REGEX,
-  GO_REGEX
+  GO_REGEX,
+  JAVASCRIPT_REGEX
 } from '../src/index'
 
 let fs = require('fs')
@@ -14,18 +15,23 @@ const csharpPath = "./languages/csharp.cs";
 const csharp = readFile(csharpPath)
 
 const goPath = "./languages/go.go";
-const go = readFile(csharpPath)
+const go = readFile(goPath)
+
+const javascriptPath = "./languages/go.go";
+const javascript = readFile(javascriptPath)
 
 const languages = new Map([
   ["cpp", cpp],
   ["csharp", csharp],
   ["go", go],
+  ["javascript", javascript],
 ]);
 
 const regexs = new Map([
   ["cpp", CPP_REGEX],
   ["csharp", CSHARP_REGEX],
   ["go", GO_REGEX],
+  ["javascript", JAVASCRIPT_REGEX],
 ])
 
 export const testRegex = (name: string) => {
