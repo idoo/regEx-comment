@@ -13,6 +13,7 @@ extract comment content from programming languages
 - [x] Javascript
 - [x] Kotlin
 - [x] PHP
+- [x] Ruby
 - [x] TypeScript
 - [ ] Fortan
 - [ ] Haskell
@@ -20,6 +21,5 @@ extract comment content from programming languages
 - [ ] Ocaml
 - [ ] Perl
 - [ ] Python
-- [ ] Ruby
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!
