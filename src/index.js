@@ -8,6 +8,7 @@ const JAVASCRIPT_REGEX = DEFAULT_REGEX;
 const KOTLIN_REGEX = DEFAULT_REGEX;
 const PHP_REGEX = DEFAULT_REGEX;
 const RUBY_REGEX = /(#(.*)$)/gm;
+const PYTHON_REGEX = /'{3}[\s\S]*?'{3}|"{3}[\s\S]*?"{3}|#(.*)$/gm;
 const TYPESCRIPT_REGEX = DEFAULT_REGEX;
 
 module.exports = {
@@ -19,6 +20,7 @@ module.exports = {
   JAVASCRIPT_REGEX,
   KOTLIN_REGEX,
   PHP_REGEX,
+  PYTHON_REGEX,
   RUBY_REGEX,
   TYPESCRIPT_REGEX
 };

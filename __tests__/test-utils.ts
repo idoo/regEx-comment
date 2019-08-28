@@ -7,6 +7,7 @@ import {
   JAVASCRIPT_REGEX,
   KOTLIN_REGEX,
   PHP_REGEX,
+  PYTHON_REGEX,
   RUBY_REGEX,
   TYPESCRIPT_REGEX
 } from "../src/index";
@@ -37,6 +38,9 @@ const typescript = readFile(typescriptPath);
 const phpPath = "./languages/php.php";
 const php = readFile(phpPath);
 
+const pythonPath = "./languages/python.py";
+const python = readFile(pythonPath);
+
 const rubyPath = "./languages/ruby.rb";
 const ruby = readFile(rubyPath);
 
@@ -48,6 +52,7 @@ const languages = new Map([
   ["javascript", javascript],
   ["kotlin", kotlin],
   ["php", php],
+  ["python", python],
   ["ruby", ruby],
   ["typescript", typescript]
 ]);
@@ -60,6 +65,7 @@ const regexs = new Map([
   ["javascript", JAVASCRIPT_REGEX],
   ["kotlin", KOTLIN_REGEX],
   ["php", PHP_REGEX],
+  ["python", PYTHON_REGEX],
   ["ruby", RUBY_REGEX],
   ["typescript", TYPESCRIPT_REGEX],
 ]);
