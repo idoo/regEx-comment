@@ -9,6 +9,7 @@ extract comment content from programming languages
 - [x] C#
 - [x] C++
 - [x] Go
+- [x] Haskell
 - [x] Java
 - [x] Javascript
 - [x] Kotlin
@@ -17,7 +18,6 @@ extract comment content from programming languages
 - [x] Ruby
 - [x] TypeScript
 - [ ] Fortan
-- [ ] Haskell
 - [ ] Lua
 - [ ] Ocaml
 - [ ] Perl

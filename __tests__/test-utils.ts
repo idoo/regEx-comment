@@ -3,6 +3,7 @@ import {
   CPP_REGEX,
   CSHARP_REGEX,
   GO_REGEX,
+  HASKELL_REGEX,
   JAVA_REGEX,
   JAVASCRIPT_REGEX,
   KOTLIN_REGEX,
@@ -22,6 +23,9 @@ const csharp = readFile(csharpPath);
 
 const goPath = "./languages/go.go";
 const go = readFile(goPath);
+
+const haskellPath = "./languages/haskell.hs";
+const haskell = readFile(haskellPath);
 
 const kotlinPath = "./languages/kotlin.kt";
 const kotlin = readFile(kotlinPath);
@@ -48,6 +52,7 @@ const languages = new Map([
   ["cpp", cpp],
   ["csharp", csharp],
   ["go", go],
+  ["haskell", haskell],
   ["java", java],
   ["javascript", javascript],
   ["kotlin", kotlin],
@@ -61,6 +66,7 @@ const regexs = new Map([
   ["cpp", CPP_REGEX],
   ["csharp", CSHARP_REGEX],
   ["go", GO_REGEX],
+  ["haskell", HASKELL_REGEX],
   ["java", JAVA_REGEX],
   ["javascript", JAVASCRIPT_REGEX],
   ["kotlin", KOTLIN_REGEX],
