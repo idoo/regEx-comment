@@ -1,6 +1,6 @@
 # RegEx
 
-Extract comments content from different programming languages
+(๑˃̵ᴗ˂̵)و Extract comments content from different programming languages
 
 [![typescript](https://img.shields.io/badge/typescript-first-blue.svg)](https://github.com/idoo/regEx-comment)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
