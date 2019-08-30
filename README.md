@@ -14,14 +14,14 @@ Extract comments content from different programming languages
 - [x] Haskell
 - [x] Java
 - [x] Javascript
-- [x] Lua
 - [x] Kotlin
+- [x] Lua
+- [x] Perl
 - [x] PHP
 - [x] Python
 - [x] Ruby
 - [x] TypeScript
 - [ ] Fortan
 - [ ] Ocaml
-- [ ] Perl
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!

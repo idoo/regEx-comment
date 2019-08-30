@@ -9,10 +9,12 @@ import {
   KOTLIN_REGEX,
   LUA_REGEX,
   PHP_REGEX,
+  PERL_REGEX,
   PYTHON_REGEX,
   RUBY_REGEX,
   TYPESCRIPT_REGEX
 } from "../src/index";
+import { read } from "fs";
 
 let fs = require("fs");
 
@@ -43,6 +45,9 @@ const javascript = readFile(javascriptPath);
 const typescriptPath = "./languages/typescript.ts";
 const typescript = readFile(typescriptPath);
 
+const perlPath = "./languages/perl.pl";
+const perl = readFile(perlPath);
+
 const phpPath = "./languages/php.php";
 const php = readFile(phpPath);
 
@@ -61,6 +66,7 @@ const languages = new Map([
   ["javascript", javascript],
   ["kotlin", kotlin],
   ["lua", lua],
+  ["perl", perl],
   ["php", php],
   ["python", python],
   ["ruby", ruby],
@@ -76,6 +82,7 @@ const regexs = new Map([
   ["javascript", JAVASCRIPT_REGEX],
   ["kotlin", KOTLIN_REGEX],
   ["lua", LUA_REGEX],
+  ["perl", PERL_REGEX],
   ["php", PHP_REGEX],
   ["python", PYTHON_REGEX],
   ["ruby", RUBY_REGEX],
