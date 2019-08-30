@@ -6,6 +6,7 @@ const GO_REGEX = DEFAULT_REGEX;
 const JAVA_REGEX = DEFAULT_REGEX;
 const JAVASCRIPT_REGEX = DEFAULT_REGEX;
 const KOTLIN_REGEX = DEFAULT_REGEX;
+const LUA_REGEX = /\[((=*)\[(.|\n)*?)\]\2\]|--.*$/gm;
 const PHP_REGEX = DEFAULT_REGEX;
 const RUBY_REGEX = /(#(.*)$)/gm;
 const PYTHON_REGEX = /'{3}[\s\S]*?'{3}|"{3}[\s\S]*?"{3}|#(.*)$/gm;
@@ -21,6 +22,7 @@ module.exports = {
   JAVA_REGEX,
   JAVASCRIPT_REGEX,
   KOTLIN_REGEX,
+  LUA_REGEX,
   PHP_REGEX,
   PYTHON_REGEX,
   RUBY_REGEX,

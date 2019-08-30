@@ -7,6 +7,7 @@ import {
   JAVA_REGEX,
   JAVASCRIPT_REGEX,
   KOTLIN_REGEX,
+  LUA_REGEX,
   PHP_REGEX,
   PYTHON_REGEX,
   RUBY_REGEX,
@@ -29,6 +30,9 @@ const haskell = readFile(haskellPath);
 
 const kotlinPath = "./languages/kotlin.kt";
 const kotlin = readFile(kotlinPath);
+
+const luaPath = "./languages/lua.lua";
+const lua = readFile(luaPath);
 
 const javaPath = "./languages/java.java";
 const java = readFile(javaPath);
@@ -56,6 +60,7 @@ const languages = new Map([
   ["java", java],
   ["javascript", javascript],
   ["kotlin", kotlin],
+  ["lua", lua],
   ["php", php],
   ["python", python],
   ["ruby", ruby],
@@ -70,6 +75,7 @@ const regexs = new Map([
   ["java", JAVA_REGEX],
   ["javascript", JAVASCRIPT_REGEX],
   ["kotlin", KOTLIN_REGEX],
+  ["lua", LUA_REGEX],
   ["php", PHP_REGEX],
   ["python", PYTHON_REGEX],
   ["ruby", RUBY_REGEX],
