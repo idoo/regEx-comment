@@ -1,25 +1,44 @@
 {
   "name": "regex-comment",
-  "version": "0.0.2",
-  "description": "regexp list to fetch comments from source files",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Regexs to extract comments from programming languages",
+  "keywords": [
+    "regex",
+    "comments"
+  ],
+  "author": "Ivan Verevkin <ivan.p.verevkin@gmail.com>",
+  "homepage": "https://github.com/idoo/regEx-comment/tree/master/packages/regex-comment#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idoo/regEx-comment.git"
+  },
   "scripts": {
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
     "release": "yarn test:coverage && yarn build && lerna publish",
     "build": "lerna run build --parallel"
   },
-  "repository": "git+https://github.com/idoo/regEx-comment.git",
-  "keywords": [
-    "regex"
-  ],
-  "author": "Ivan Verevkin",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/idoo/regEx-comment/issues"
   },
-  "homepage": "https://github.com/idoo/regEx-comment#readme",
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.3",
+    "fs": "^0.0.1-security",
+    "jest": "^24.9.0",
+    "lerna": "^3.16.4",
+    "process": "^0.11.10",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.2"
   }
 }
