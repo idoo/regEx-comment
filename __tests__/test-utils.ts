@@ -2,6 +2,7 @@ import {
   DEFAULT_REGEX,
   CPP_REGEX,
   CSHARP_REGEX,
+  FORTRAN_REGEX,
   GO_REGEX,
   HASKELL_REGEX,
   JAVA_REGEX,
@@ -14,6 +15,7 @@ import {
   RUBY_REGEX,
   TYPESCRIPT_REGEX
 } from "../src/index";
+
 import { read } from "fs";
 
 let fs = require("fs");
@@ -23,6 +25,9 @@ const cpp = readFile(cppPath);
 
 const csharpPath = "./languages/csharp.cs";
 const csharp = readFile(csharpPath);
+
+const fortranPath = "./languages/fortran.f";
+const fortran = readFile(fortranPath);
 
 const goPath = "./languages/go.go";
 const go = readFile(goPath);
@@ -60,6 +65,7 @@ const ruby = readFile(rubyPath);
 const languages = new Map([
   ["cpp", cpp],
   ["csharp", csharp],
+  ["fortran", fortran],
   ["go", go],
   ["haskell", haskell],
   ["java", java],
@@ -76,6 +82,7 @@ const languages = new Map([
 const regexs = new Map([
   ["cpp", CPP_REGEX],
   ["csharp", CSHARP_REGEX],
+  ["fortran", FORTRAN_REGEX],
   ["go", GO_REGEX],
   ["haskell", HASKELL_REGEX],
   ["java", JAVA_REGEX],

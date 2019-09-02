@@ -2,6 +2,7 @@
 const DEFAULT_REGEX = /\/\*[\s\S]*?\*\/|\/\/.*$/gm;
 const CPP_REGEX = DEFAULT_REGEX;
 const CSHARP_REGEX = DEFAULT_REGEX;
+const FORTRAN_REGEX = /#if 0[\s\S]*?#endif|!((?!!).)*$/gm;
 const GO_REGEX = DEFAULT_REGEX;
 const HASKELL_REGEX = /\{\-\|[\s\S]*?\-}|--.*$/gm;
 const JAVA_REGEX = DEFAULT_REGEX;
@@ -18,6 +19,7 @@ module.exports = {
   DEFAULT_REGEX,
   CPP_REGEX,
   CSHARP_REGEX,
+  FORTRAN_REGEX,
   GO_REGEX,
   HASKELL_REGEX,
   JAVA_REGEX,
