@@ -23,5 +23,7 @@ Extract comments content from different programming languages
 - [x] Ruby
 - [x] TypeScript
 - [ ] Ocaml
+- [ ] Rust
+- [ ] Swift
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!
