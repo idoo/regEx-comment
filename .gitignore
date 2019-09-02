@@ -30,6 +30,7 @@ coverage
 /lib/yarn.lock
 /docs/yarn.lock
 
+.lerna-debug.log
 # editors
 .vs
 .vscode
