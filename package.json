@@ -1,6 +1,6 @@
 {
   "name": "regex-comment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "regexp list to fetch comments from source files",
   "main": "index.js",
   "scripts": {
