@@ -1,5 +1,5 @@
 {
-  "name": "regex-comments",
+  "name": "regex-comment",
   "version": "0.1.0",
   "description": "Regexs to extract comments from programming languages",
   "keywords": [
@@ -7,7 +7,7 @@
     "comments"
   ],
   "author": "Ivan Verevkin <ivan.p.verevkin@gmail.com>",
-  "homepage": "https://github.com/idoo/regEx-comment/tree/master/packages/regex-comments#readme",
+  "homepage": "https://github.com/idoo/regEx-comment/tree/master/packages/regex-comment#readme",
   "license": "MIT",
   "main": "src/index.js",
   "directories": {
