@@ -12,6 +12,7 @@ const LUA_REGEX = /\[((=*)\[(.|\n)*?)\]\2\]|--.*$/gm;
 const PERL_REGEX = /=begin[\s\S]*?=cut|(#(.*)$)/gm;
 const PHP_REGEX = DEFAULT_REGEX;
 const PYTHON_REGEX = /'{3}[\s\S]*?'{3}|"{3}[\s\S]*?"{3}|#(.*)$/gm;
+const SWIFT_REGEX = DEFAULT_REGEX;
 const RUBY_REGEX = /(#(.*)$)/gm;
 const TYPESCRIPT_REGEX = DEFAULT_REGEX;
 
@@ -30,5 +31,6 @@ module.exports = {
   PHP_REGEX,
   PYTHON_REGEX,
   RUBY_REGEX,
+  SWIFT_REGEX,
   TYPESCRIPT_REGEX
 };
