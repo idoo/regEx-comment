@@ -9,6 +9,7 @@ import {
   JAVASCRIPT_REGEX,
   KOTLIN_REGEX,
   LUA_REGEX,
+  OCAML_REGEX,
   PHP_REGEX,
   PERL_REGEX,
   PYTHON_REGEX,
@@ -51,6 +52,9 @@ const javascript = readFile(javascriptPath);
 const typescriptPath = "./languages/typescript.ts";
 const typescript = readFile(typescriptPath);
 
+const ocamlPath = "./languages/ocaml.ml";
+const ocaml = readFile(ocamlPath);
+
 const perlPath = "./languages/perl.pl";
 const perl = readFile(perlPath);
 
@@ -76,6 +80,7 @@ const languages = new Map([
   ["javascript", javascript],
   ["kotlin", kotlin],
   ["lua", lua],
+  ["ocaml", ocaml],
   ["perl", perl],
   ["php", php],
   ["python", python],
@@ -94,6 +99,7 @@ const regexs = new Map([
   ["javascript", JAVASCRIPT_REGEX],
   ["kotlin", KOTLIN_REGEX],
   ["lua", LUA_REGEX],
+  ["ocaml", OCAML_REGEX],
   ["perl", PERL_REGEX],
   ["php", PHP_REGEX],
   ["python", PYTHON_REGEX],

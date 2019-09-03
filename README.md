@@ -17,13 +17,13 @@ Extract comments content from different programming languages
 - [x] Javascript
 - [x] Kotlin
 - [x] Lua
+- [x] Ocaml
 - [x] Perl
 - [x] PHP
 - [x] Python
 - [x] Ruby
 - [x] Swift
 - [x] TypeScript
-- [ ] Ocaml
 - [ ] Rust
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!
