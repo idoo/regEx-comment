@@ -22,8 +22,8 @@ Extract comments content from different programming languages
 - [x] PHP
 - [x] Python
 - [x] Ruby
+- [x] Rust
 - [x] Swift
 - [x] TypeScript
-- [ ] Rust
 
 Thank you <a href="https://github.com/Bogdan-Lyashenko">Bogdan Lyashenko</a>!

@@ -14,6 +14,7 @@ import {
   PERL_REGEX,
   PYTHON_REGEX,
   RUBY_REGEX,
+  RUST_REGEX,
   SWIFT_REGEX,
   TYPESCRIPT_REGEX
 } from "../lib/index";
@@ -64,11 +65,14 @@ const php = readFile(phpPath);
 const pythonPath = "./languages/python.py";
 const python = readFile(pythonPath);
 
-const swiftPath = "./languages/swift.swift";
-const swift = readFile(swiftPath);
-
 const rubyPath = "./languages/ruby.rb";
 const ruby = readFile(rubyPath);
+
+const rustPath = "./languages/rust.rs";
+const rust = readFile(rustPath);
+
+const swiftPath = "./languages/swift.swift";
+const swift = readFile(swiftPath);
 
 const languages = new Map([
   ["cpp", cpp],
@@ -85,6 +89,7 @@ const languages = new Map([
   ["php", php],
   ["python", python],
   ["ruby", ruby],
+  ["rust", rust],
   ["swift", swift],
   ["typescript", typescript]
 ]);
@@ -104,6 +109,7 @@ const regexs = new Map([
   ["php", PHP_REGEX],
   ["python", PYTHON_REGEX],
   ["ruby", RUBY_REGEX],
+  ["rust", RUST_REGEX],
   ["swift", SWIFT_REGEX],
   ["typescript", TYPESCRIPT_REGEX],
 ]);
