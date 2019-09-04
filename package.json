@@ -1,6 +1,6 @@
 {
   "name": "regex-comment",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Regexs to extract comments from programming languages",
   "keywords": [
     "regex",
